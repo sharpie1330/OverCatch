@@ -94,20 +94,20 @@ class Dist:
                             vanilla[cls].append(np.nan)
 
             # vanilla 이상치 제거
-            for cls in range(nc-1):
-                if not vanilla[cls].count(np.nan) == 30:
-                    Q1 = np.percentile(np.array(Series(vanilla[cls]).dropna().tolist()), 25)
-                    Q3 = np.percentile(np.array(Series(vanilla[cls]).dropna().tolist()), 75)
-                    IQR = Q3 - Q1
-                    v_result = list(((Q1 - 1.5 * IQR <= vanilla[cls]) & (Q3 + 1.5 * IQR >= vanilla[cls])) | numpy.isnan(vanilla[cls]))
-                    v_result_filtered = list()
-                    v_not_true_index = list(filter(lambda x: v_result[x] != 1.0, range(len(v_result))))
-                    for index in range(len(vanilla[cls])):
-                        if not v_not_true_index.count(index) > 0:
-                            v_result_filtered.append(vanilla[cls][index])
-                    vanilla[cls] = copy.deepcopy(v_result_filtered)
-                else:
-                    vanilla[cls] = list()
+#             for cls in range(nc-1):
+#                 if not vanilla[cls].count(np.nan) == 30:
+#                     Q1 = np.percentile(np.array(Series(vanilla[cls]).dropna().tolist()), 25)
+#                     Q3 = np.percentile(np.array(Series(vanilla[cls]).dropna().tolist()), 75)
+#                     IQR = Q3 - Q1
+#                     v_result = list(((Q1 - 1.5 * IQR <= vanilla[cls]) & (Q3 + 1.5 * IQR >= vanilla[cls])) | numpy.isnan(vanilla[cls]))
+#                     v_result_filtered = list()
+#                     v_not_true_index = list(filter(lambda x: v_result[x] != 1.0, range(len(v_result))))
+#                     for index in range(len(vanilla[cls])):
+#                         if not v_not_true_index.count(index) > 0:
+#                             v_result_filtered.append(vanilla[cls][index])
+#                     vanilla[cls] = copy.deepcopy(v_result_filtered)
+#                 else:
+#                     vanilla[cls] = list()
 
             # 30프레임/ 7프레임 별 표준 편차, 평균 계산 - 7프레임 이상 존재할 때
             for cls in range(nc - 1):
