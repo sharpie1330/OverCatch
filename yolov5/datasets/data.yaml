@@ -1,0 +1,5 @@
+train: /content/yolov5/datasets/train.txt
+val: /content/yolov5/datasets/valid.txt
+test: /content/yolov5/datasets/test.txt
+nc: 13
+names: ['ANA', 'BASTION', 'CASSIDY', 'LUCIO', 'MEI', 'REAPER', 'ROADHOG', 'SOLDIER-76', 'SOMBRA', 'TORBJORN', 'ZARYA', 'ZENYATA', 'kill-sign']
