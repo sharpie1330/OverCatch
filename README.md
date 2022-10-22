@@ -21,6 +21,7 @@ yolov5 copyright is not reserved by this project. <br>
 - yolov5 내 새로 추가된 파일 목록
   - downsize.py -> 학습 중간에 중단된 파일 용량 줄이기
   - dist.py -> 킬사인 프레임 추출, 킬사인 기준 이전 30프레임 분석해 킬사인에 대한 타겟 파악, 30프레임 데이터 저장(보간, 이상치 제거 등)
+  - train_data_generate.py
 
 - yolov5 수정된 파일
   - detect.py -> dist 파일 저장하도록
