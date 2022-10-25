@@ -31,7 +31,9 @@ import platform
 import sys
 from pathlib import Path
 
-import numpy as np  # EDIT
+# EDIT
+import numpy as np
+
 import torch
 
 FILE = Path(__file__).resolve()
@@ -49,6 +51,7 @@ from utils.torch_utils import select_device, smart_inference_mode
 
 # EDIT
 class Inference:
+    @staticmethod
     @smart_inference_mode()
     def run(
             weights=ROOT / 'yolov5s.pt',  # model path or triton URL

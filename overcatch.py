@@ -17,7 +17,7 @@ ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative
 
 
 class OverCatch:
-    weights = ROOT / 'yolov5' / 'datasets' / 'oc1_oc2_best.pt'
+    weights = ROOT / 'yolov5' / 'datasets' / 'overwatch_best.pt'
     model_dist = ROOT / 'yolov5' / 'datasets' / 'dist_model_vanilla.h5'
     imgsz = (1080, 1920)
     conf = 0.1
@@ -39,13 +39,13 @@ class OverCatch:
         if not os.path.exists(OverCatch.project):
             os.makedirs(OverCatch.project)
         Inference.run(weights=OverCatch.weights, imgsz=OverCatch.imgsz, conf_thres=OverCatch.conf,
-                                 source=OverCatch.source, project=OverCatch.project, name=OverCatch.name,
-                                 data=OverCatch.data, nosave=OverCatch.nosave, save_dist=OverCatch.save_dist,
-                                 save_conf=OverCatch.save_conf)
+                      source=OverCatch.source, project=OverCatch.project, name=OverCatch.name,
+                      data=OverCatch.data, nosave=OverCatch.nosave, save_dist=OverCatch.save_dist,
+                      save_conf=OverCatch.save_conf)
         dist_filepath = str(ROOT / 'result' / OverCatch.name / 'dist' / '{}_dist.txt'.format(OverCatch.name))
         ks_frame_target, dist, dist_diff, dist_vanilla = Dist.get_dict(dist_filepath)
-        
-        #dist
+
+        # dist
         sequences = list()
         for k, v in dist_vanilla.items():
             sequences.append(Series(v).fillna(0).tolist())
@@ -57,7 +57,7 @@ class OverCatch:
                                                                       value=0)
         model = keras.models.load_model(OverCatch.model_dist)
         pred = model.predict(padded_inputs)
-        test_preds = (pred>0.5).astype("int32")
+        # test_preds = (pred > 0.5).astype("int32")
         # tp = model.predict(padded_inputs).astype("float64")
         # print(tp)
         # hack = 0
@@ -70,6 +70,10 @@ class OverCatch:
         #     print('핵 사용 의심됨!')
         # else:
         #     print('핵을 사용하지 않음으로 판단됨.')
+        pc_list = pred.flatten(order='C').tolist()
+        pc_seq = Series(sequences[pc_list.index(max(pc_list))]).interpolate().dropna().tolist()
 
-        percent = np.mean(pred.flatten(order='C').tolist())
-        return percent
+        pc_mean = np.mean(pc_list)
+
+        # percent = np.mean(pred.flatten(order='C').tolist())
+        return pc_mean, pc_seq
