@@ -16,7 +16,7 @@ yolov5 copyright is not reserved by this project. <br>
 - download and must place model file at yolov5/datasets
 
 
-> [release demo v0.0.1](https://github.com/sharpie1330/OverCatch/releases/tag/demo)
+> [release demo v0.0.1](https://github.com/sharpie1330/OverCatch/releases)
 
 
 ---
