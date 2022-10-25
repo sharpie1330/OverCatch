@@ -7,6 +7,7 @@ yolov5 copyright is not reserved by this project. <br>
 <br>
 (2022-10-22) Optimized for OVERWATCH 1
 <br>
+(2022-10-25) Optimized for OVERWATCH 1 & 2
 
 
 **model file download**
@@ -38,3 +39,11 @@ yolov5 copyright is not reserved by this project. <br>
 
 - 핵 판별 결과 반환 코드
   - overcatch.py -> dist.py 및 detect.py 참조하여 lstm모델 통과, 결과 반환
+
+
+**[코드 수정] (2022-10-25 update)**
+
+
+- 필요없는 부분 주석처리
+- list 저장 시 copy.deepcopy 사용
+- 함수 return 값 변경 등
