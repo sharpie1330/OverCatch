@@ -46,10 +46,8 @@ class OverCatch:
         ks_frame_target, dist, dist_diff, dist_vanilla = Dist.get_dict(dist_filepath)
 
         # dist
-        frame_list = list()
         sequences = list()
         for k, v in dist_vanilla.items():
-            frame_list.append(k)
             sequences.append(Series(v).fillna(0).tolist())
         padded_inputs = tf.keras.preprocessing.sequence.pad_sequences(sequences,
                                                                       padding='post',
@@ -73,20 +71,9 @@ class OverCatch:
         # else:
         #     print('핵을 사용하지 않음으로 판단됨.')
         pc_list = pred.flatten(order='C').tolist()
+        pc_seq = Series(sequences[pc_list.index(max(pc_list))]).interpolate().dropna().tolist()
+
         pc_mean = np.mean(pc_list)
 
-        if pc_mean > 0.5:
-            seq_index = pc_list.index(max(pc_list))
-        else:
-            seq_index = pc_list.index(min(pc_list))
-
-        pc_seq = Series(sequences[seq_index]).interpolate().dropna().tolist()
-
-        target_index = ks_frame_target[frame_list[seq_index]]
-        target_list = ['ANA', 'BASTION', 'CASSIDY', 'LUCIO', 'MEI',
-                       'REAPER', 'ROADHOG', 'SOLDIER-76', 'SOMBRA', 'TORBJORN',
-                       'ZARYA', 'ZENYATA', 'kill-sign']
-        target = target_list[target_index]
-
         # percent = np.mean(pred.flatten(order='C').tolist())
-        return pc_mean, pc_seq, target
+        return pc_mean, pc_seq

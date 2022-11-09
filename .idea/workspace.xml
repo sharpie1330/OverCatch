@@ -4,17 +4,150 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ff7e72-06a2-48e9-b41f-e27d8b06df72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/readme_img/블루스크린대표이미지.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_History.py" beforePathEscaped="$PROJECT_DIR$/pages/📼_History.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_History.py" afterPathEscaped="$PROJECT_DIR$/pages/📼_History.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov5/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_Main.py" beforePathEscaped="$PROJECT_DIR$/🌎_Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/_Main.py" afterPathEscaped="$PROJECT_DIR$/🌎_Main.py" afterDir="false" />
+    <list default="true" id="cba4811b-8536-4b96-9d33-b7e45bcc89b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/overcatch.py" beforeDir="false" afterPath="$PROJECT_DIR$/overcatch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/yolov5/dist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/.pre-commit-config.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/benchmarks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/classify/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/classify/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/classify/val.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/Argoverse.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/GlobalWheat2020.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/ImageNet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/Objects365.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/SKU-110K.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/VOC.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/VisDrone.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/coco.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/coco128-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/coco128.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/hyps/hyp.Objects365.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/hyps/hyp.VOC.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/hyps/hyp.scratch-high.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/hyps/hyp.scratch-low.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/hyps/hyp.scratch-med.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/images/bus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/images/zidane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/scripts/download_weights.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/scripts/get_coco.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/scripts/get_coco128.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/scripts/get_imagenet.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/data/xView.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/detect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/export.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/hubconf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/common.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/experimental.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/anchors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov3-spp.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov3-tiny.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov3.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-bifpn.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-fpn.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-p2.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-p34.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-p6.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-p7.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5-panet.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5l6.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5m6.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5n6.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5s-LeakyReLU.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5s-ghost.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5s-transformer.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5s6.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/hub/yolov5x6.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/segment/yolov5l-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/segment/yolov5m-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/segment/yolov5n-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/segment/yolov5s-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/segment/yolov5x-seg.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/yolo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/yolov5l.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/yolov5m.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/yolov5n.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/yolov5s.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/models/yolov5x.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/segment/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/segment/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/segment/val.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/setup.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/tutorial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/activations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/augmentations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/autoanchor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/autobatch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/aws/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/aws/mime.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/aws/resume.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/aws/userdata.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/callbacks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/dataloaders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/docker/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/docker/Dockerfile-arm64" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/docker/Dockerfile-cpu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/downloads.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/flask_rest_api/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/flask_rest_api/example_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/flask_rest_api/restapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/general.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/google_app_engine/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/google_app_engine/additional_requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/google_app_engine/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/clearml/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/clearml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/clearml/clearml_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/clearml/hpo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/comet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/comet/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/comet/comet_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/comet/hpo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/comet/optimizer_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/wandb/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/wandb/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/wandb/log_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/wandb/sweep.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/wandb/sweep.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loggers/wandb/wandb_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/plots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/augmentations.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/dataloaders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/general.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/loss.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/metrics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/segment/plots.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/torch_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/utils/triton.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov5/git_hide/val.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,7 +155,8 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GzkxgY2bQiGf9ylx7nentKUyLC" />
+  <component name="ProjectId" id="2GUn1h1zf6JZoWuCQDqOFbF621s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -31,23 +165,51 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/bluescreen_dsITME&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/OverCatch&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\bluescreen_dsITME\readme_img" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OverCatch" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="OverCatch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b3ff7e72-06a2-48e9-b41f-e27d8b06df72" name="Changes" comment="" />
-      <created>1667399047765</created>
+      <changelist id="cba4811b-8536-4b96-9d33-b7e45bcc89b8" name="Changes" comment="" />
+      <created>1666451816976</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667399047765</updated>
+      <updated>1666451816976</updated>
     </task>
     <servers />
   </component>
