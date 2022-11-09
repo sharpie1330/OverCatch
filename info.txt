@@ -1,0 +1,22 @@
+main page: detect hack
+
+page2: history gallery
+
+page3: team n project info > 일단 생략. 배포 안하니까.
+
+# on google colab
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+source ~/.bashrc
+nvm install --lts
+npm install --global localtunnel
+
+
+
+cd streamlit-gallery
+
+streamlit run 🌎_Main.py
+
+
+태영 👻
+가연 🕊️
+규현 😎
