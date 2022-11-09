@@ -1,6 +1,12 @@
 # OverCatch
 
-2022 DSWU Graduation Project
+![](readme_img/블루스크린대표이미지.png)
+
+### **2022 DSWU Graduation Project**
+* **PM & AI** : [`Taeyoung Kwak`](https://github.com/sharpie1330)
+* **Web** : [`Kyuhyeon Jang`](https://github.com/KyuhyeonJang)
+* **Data Labeling** : [`Gayeon Kim`](https://github.com/gayeon1018)
+---
 
 > 💌 Please report issues If you find problems! <br>
 > 💌 설명이나 작동에 문제가 있다면 이슈 작성 부탁드립니다!
@@ -8,8 +14,6 @@
 > **※CAUTION※** <br>
 This project refers to yolov5. <br>
 yolov5 copyright is not reserved by this project. <br>
-
-![](readme_img/블루스크린대표이미지.png)
 
 ### **Overwatch Aimhack Detection**
 > **Notice** <br>
@@ -81,11 +85,7 @@ streamlit run 🌎_Main.py
 
 ---
 
-<br>
-
 **_이하 설명은 모두 한국어로 작성합니다._**
-
-<br>
 
 ---
 
